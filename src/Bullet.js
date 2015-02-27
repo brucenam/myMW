@@ -57,7 +57,7 @@ var Bullet = cc.Sprite.extend({
         }
     },
     destroy:function () {
-        var explode = HitEffect.getOrCreateHitEffect(this.x, this.y, Math.random() * 360, 0.75);
+        var explode = HitEffect.getOrCreateHitEffect(this.x, this.y, Math.random() * 350, 0.75);
         this.active = false;
         this.visible = false;
     },
